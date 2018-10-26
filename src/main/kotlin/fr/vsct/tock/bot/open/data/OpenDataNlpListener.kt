@@ -1,14 +1,6 @@
 package fr.vsct.tock.bot.open.data
 
-import fr.vsct.tock.bot.engine.dialog.Dialog
-import fr.vsct.tock.bot.engine.dialog.EntityValue
-import fr.vsct.tock.bot.engine.event.Event
 import fr.vsct.tock.bot.engine.nlp.NlpListener
-import fr.vsct.tock.bot.engine.user.UserTimeline
-import fr.vsct.tock.bot.open.data.client.sncf.SncfOpenDataClient.findPlace
-import fr.vsct.tock.bot.open.data.client.sncf.model.PlaceValue
-import fr.vsct.tock.nlp.api.client.model.NlpResult
-import fr.vsct.tock.nlp.entity.ValueResolverRepository
 
 /**
  * Evaluate place entity values.

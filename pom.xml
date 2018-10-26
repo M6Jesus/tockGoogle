@@ -65,7 +65,7 @@
             <artifactId>guava</artifactId>
             <version>${guava}</version>
         </dependency>
-
+	
         <dependency>
             <groupId>fr.vsct.tock</groupId>
             <artifactId>bot-test</artifactId>
